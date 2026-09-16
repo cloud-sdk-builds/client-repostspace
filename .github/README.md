@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-repostspace`](https://www.npmjs.com/package/@aws-sdk/client-repostspace/v/3.1133.0).
+[`@aws-sdk/client-repostspace`](https://www.npmjs.com/package/@aws-sdk/client-repostspace/v/3.1134.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-repostspace - [https://cloud-sdk-builds.github.io/?sdk=client-repostspace](https://cloud-sdk-builds.github.io/?sdk=client-repostspace)
-- @aws-sdk/client-repostspace v3.1133.0 - [https://cloud-sdk-builds.github.io/?sdk=client-repostspace&version=3.1133.0](https://cloud-sdk-builds.github.io/?sdk=client-repostspace&version=3.1133.0)
+- @aws-sdk/client-repostspace v3.1134.0 - [https://cloud-sdk-builds.github.io/?sdk=client-repostspace&version=3.1134.0](https://cloud-sdk-builds.github.io/?sdk=client-repostspace&version=3.1134.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-repostspace@3.1133.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-repostspace@3.1134.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Bq2xLZ8N9F+B5V26pYW4s5ty/k3BbAKlUMAm0StennPckQqETOI71sedxnV/HQcY
+sha384-Y+xCC1FDi8aT5AYW4KIRyqBEW9ypFZltnW+8rN1uGRuJDpmoMNv52oZvYNS8h8Aa
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-repostspace": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-repostspace@3.1133.0/index.min.mjs"
+            "@aws-sdk/client-repostspace": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-repostspace@3.1134.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-repostspace@3.1133.0/index.min.mjs": "sha384-Bq2xLZ8N9F+B5V26pYW4s5ty/k3BbAKlUMAm0StennPckQqETOI71sedxnV/HQcY"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-repostspace@3.1134.0/index.min.mjs": "sha384-Y+xCC1FDi8aT5AYW4KIRyqBEW9ypFZltnW+8rN1uGRuJDpmoMNv52oZvYNS8h8Aa"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-repostspace": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-repostspace@3.1133.0/index.min.mjs"
+                        "@aws-sdk/client-repostspace": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-repostspace@3.1134.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-repostspace@3.1133.0/index.min.mjs": "sha384-Bq2xLZ8N9F+B5V26pYW4s5ty/k3BbAKlUMAm0StennPckQqETOI71sedxnV/HQcY"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-repostspace@3.1134.0/index.min.mjs": "sha384-Y+xCC1FDi8aT5AYW4KIRyqBEW9ypFZltnW+8rN1uGRuJDpmoMNv52oZvYNS8h8Aa"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1133.0`)
+* Always pin to a specific version (`@3.1134.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-repostspace/blob/refs/tags/3.1133.0/LICENSE
+https://github.com/cloud-sdk-builds/client-repostspace/blob/refs/tags/3.1134.0/LICENSE
 ```
 
 ---
